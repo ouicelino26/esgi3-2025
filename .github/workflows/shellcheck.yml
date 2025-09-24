@@ -43,22 +43,5 @@ jobs:
               "footer": {
                 "text": "Commit ID: {{ commit.id }}"
               },
-              "fields": [
-                {
-                  "name": "Ajouts",
-                  "value": "{{ commit.added }}",
-                  "inline": true
-                },
-                {
-                  "name": "Modifiés",
-                  "value": "{{ commit.modified }}",
-                  "inline": true
-                },
-                {
-                  "name": "Supprimés",
-                  "value": "{{ commit.removed }}",
-                  "inline": true
-                }
-              ],
               "timestamp": "{{ commit.timestamp }}"
             }
